@@ -183,6 +183,7 @@ touch "$LOG_FILE" 2>/dev/null || LOG_FILE="/dev/null"
   # krea2-bloomgirls-realism; added lenovo_krea2_3000 (Danrisi/Lenovo_Krea2).
   ALL_DOWNLOAD_QUEUE=(
     "${HF_MODELS[museByStableYogi_v35Int8Extended.safetensors]}|$MODELS_DIR/diffusion_models"
+    "${HF_MODELS[krea2_turbo_fp8_scaled.safetensors]}|$MODELS_DIR/diffusion_models"
     "${HF_MODELS[qwen3vl_4b_fp8_scaled.safetensors]}|$MODELS_DIR/text_encoders"
     "${HF_MODELS[realism_engine_krea2_v2.safetensors]}|$MODELS_DIR/loras"
     "${HF_MODELS[K_excessivecum.safetensors]}|$MODELS_DIR/loras"
