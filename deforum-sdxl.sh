@@ -188,6 +188,7 @@ touch "$LOG_FILE" 2>/dev/null || LOG_FILE="/dev/null"
     "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/resolve/main/model.safetensors|$MODELS_DIR/depth_anything/Depth-Anything-V2-Small-hf"
     "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/resolve/main/config.json|$MODELS_DIR/depth_anything/Depth-Anything-V2-Small-hf"
     "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/resolve/main/preprocessor_config.json|$MODELS_DIR/depth_anything/Depth-Anything-V2-Small-hf"
+    "https://civitai.com/api/download/models/147912?fileId=109667|$MODELS_DIR/loras"
   )
 
   # Change 3: a rolling download pool. Instead of downloading in pairs and waiting
