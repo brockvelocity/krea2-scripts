@@ -25,6 +25,8 @@ CONSOLE="${CONSOLE:-/proc/1/fd/1}"
 EXTRA_FILES=(
   "https://civitai.red/api/download/models/2714033?fileId=2599688|loras"   # high noise
   "https://civitai.red/api/download/models/2714048?fileId=2599700|loras"   # low noise
+  "https://civitai.red/api/download/models/2325788?fileId=2215936|loras"   # high noise
+  "https://civitai.red/api/download/models/2191446?fileId=2084409|loras"   # low noise
 )
 
 # --- 1. The creator's original setup ---------------------------------------------
