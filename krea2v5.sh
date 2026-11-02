@@ -199,7 +199,8 @@ touch "$LOG_FILE" 2>/dev/null || LOG_FILE="/dev/null"
     "https://civitai.red/api/download/models/3415772?fileId=3308666|$MODELS_DIR/loras"
     "https://civitai.red/api/download/models/3103914?fileId=2983719|$MODELS_DIR/loras"
     "https://civitai.red/api/download/models/3337902?fileId=3224455|$MODELS_DIR/loras"
-    "
+    "https://civitai.red/api/download/models/3158148?fileId=3038921|$MODELS_DIR/loras"
+    "https://civitai.red/api/download/models/3142123?fileId=3022358|$MODELS_DIR/loras"
   )
 
   # Change 3: a rolling download pool. Instead of downloading in pairs and waiting
