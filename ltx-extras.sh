@@ -61,6 +61,9 @@ CIVITAI_FILES=(
   "https://civitai.red/api/download/models/3105328?fileId=2985158|loras"
   "https://civitai.red/api/download/models/3025398?fileId=2904187|loras"
   "https://civitai.red/api/download/models/2968696?fileId=2848243|loras"
+  "https://civitai.red/api/download/models/2986751?fileId=2866267|loras"
+  "https://civitai.red/api/download/models/2837052?fileId=2723311|loras"
+  "https://civitai.red/api/download/models/2859563?fileId=2744846|loras"
 )
 
 # -----------------------------------------------------------------------------
