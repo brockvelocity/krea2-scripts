@@ -17,6 +17,8 @@
 #   - Custom node requirements are installed with ComfyUI's own Python (the
 #     original used whatever "pip" came first, which may not be ComfyUI's).
 #   - Your Civitai files download in the same queue.
+#   - Checks that ComfyUI loaded the nodes the workflows use, including
+#     KJNodes' Color Match V2 for matching colors across stitched clips.
 #   - "SETUP COMPLETE" only appears if every download and node install worked,
 #     ComfyUI came back after the restart, and it really loaded the nodes.
 #     Otherwise the log ends with "SETUP FINISHED WITH n PROBLEM(S)" and a list.
@@ -281,7 +283,7 @@ touch "$LOG_FILE" 2>/dev/null || LOG_FILE=/dev/null
   # ---- 5. Check the result: ComfyUI answers, and it really loaded the nodes ----
   if [ "$UP" -eq 1 ]; then
     INFO="$(curl -fsS "$HEALTH_URL/object_info" 2>/dev/null || true)"
-    for node in "VHS_VideoCombine" "Power Lora Loader (rgthree)" "ImageResizeKJv2"; do
+    for node in "VHS_VideoCombine" "Power Lora Loader (rgthree)" "ImageResizeKJv2" "ColorMatchV2"; do
       case "$INFO" in
         *"\"$node\""*) log "node check OK: $node" ;;
         *) log "WARNING: ComfyUI did not load node: $node"
