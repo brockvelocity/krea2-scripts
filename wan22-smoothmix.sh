@@ -80,6 +80,8 @@ FILES=(
   "https://civitai.red/api/download/models/2714048?fileId=2599700|loras"   # low noise
   "https://civitai.red/api/download/models/2325788?fileId=2215936|loras|wan22-ultimatedeepthroat-i2v-102epoc-high-k3nk.safetensors"
   "https://civitai.red/api/download/models/2191446?fileId=2084409|loras|wan22-ultimatedeepthroat-I2V-101epoc-low-k3nk.safetensors"
+  "https://civitai.red/api/download/models/3112727?fileId=2992919|loras|Wan22_CumV3_high.safetensors"
+  "https://civitai.red/api/download/models/3112726?fileId=2992976|loras|Wan22_CumV3_low.safetensors"
   # Wan 2.1 Lightx2v speed LoRA the Smooth Mix creator uses (3.0 high, 1.5 low)
   "$HF/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank128_bf16.safetensors|loras"
 )
