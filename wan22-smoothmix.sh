@@ -60,9 +60,12 @@ HF=https://huggingface.co
 # python -u main.py, python /path/to/main.py, and so on.
 COMFY_MATCH='python[0-9.]*( [^ ]+)* ([^ ]*/)?main\.py'
 FILES=(
-  # Smooth Mix Wan 2.2 I2V v2.0 - the main models (largest files go first)
-  "https://civitai.red/api/download/models/2513182?fileId=2460270|diffusion_models|smoothmix-wan22-i2v-v2-high.safetensors"
-  "https://civitai.red/api/download/models/2513186?fileId=2460676|diffusion_models|smoothmix-wan22-i2v-v2-low.safetensors"
+  # Smooth Mix Wan 2.2 I2V v2.0 - the main models (largest files go first).
+  # Hugging Face copy (YuAru/smoothMixWan22-I2V) - much faster than Civitai.
+  # Civitai originals, if ever needed: models/2513182?fileId=2460270 (high)
+  # and models/2513186?fileId=2460676 (low).
+  "$HF/YuAru/smoothMixWan22-I2V/resolve/main/smoothMixWan2214BI2V_i2vV20High.safetensors|diffusion_models"
+  "$HF/YuAru/smoothMixWan22-I2V/resolve/main/smoothMixWan2214BI2V_i2vV20Low.safetensors|diffusion_models"
   # Text encoder and VAE
   "$HF/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors|text_encoders"
   "$HF/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors|vae"
