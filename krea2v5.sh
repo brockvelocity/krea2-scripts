@@ -191,14 +191,14 @@ touch "$LOG_FILE" 2>/dev/null || LOG_FILE="/dev/null"
     "${HF_MODELS[qwen_image_vae.safetensors]}|$MODELS_DIR/vae"
     "${HF_MODELS[realism_engine_krea2_v2.safetensors]}|$MODELS_DIR/loras"
     #"${HF_MODELS[K_excessivecum.safetensors]}|$MODELS_DIR/loras"
-    "${HF_MODELS[snofs_krea_v1_4.safetensors]}|$MODELS_DIR/loras"
+    #"${HF_MODELS[snofs_krea_v1_4.safetensors]}|$MODELS_DIR/loras"
     "${HF_MODELS[realism_engine_krea2_v3.1.safetensors]}|$MODELS_DIR/loras"
     "${HF_MODELS[RealisticSnapshotKrea2.safetensors]}|$MODELS_DIR/loras"
     #"https://huggingface.co/Danrisi/Lenovo_Krea2/resolve/main/lenovo_krea2_3000.safetensors|$MODELS_DIR/loras"
     #"https://civitai.red/api/download/models/3159319?fileId=3039850|$MODELS_DIR/loras" #Pain Expression
     #"https://civitai.red/api/download/models/3415772?fileId=3308666|$MODELS_DIR/loras" #Futanari Penis
-    "https://civitai.red/api/download/models/3103914?fileId=2983719|$MODELS_DIR/loras" #VHS
-    "https://civitai.red/api/download/models/3337902?fileId=3224455|$MODELS_DIR/loras" #SNOFS Photo Slider
+    #"https://civitai.red/api/download/models/3103914?fileId=2983719|$MODELS_DIR/loras" #VHS
+    #"https://civitai.red/api/download/models/3337902?fileId=3224455|$MODELS_DIR/loras" #SNOFS Photo Slider
     #"https://civitai.red/api/download/models/3158148?fileId=3038921|$MODELS_DIR/loras" #Penis Length
     #"https://civitai.red/api/download/models/3142123?fileId=3022358|$MODELS_DIR/loras" #Penis Girth
   )
